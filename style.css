@@ -1,0 +1,94 @@
+#Name {
+    display: inline;
+    left: 5px;
+    margin-top: 30px;
+    font-size: 45px;
+    color: white;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    background-color: grey;
+   
+}
+.links {
+    float: right;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+    
+}
+body {
+    margin: 0;
+    background-color: grey;
+}
+.links a {
+    color: white;
+    text-decoration: underline;
+    padding: 0px 4px;
+}
+#pic1 {
+    width: 100%;
+}
+.headers {
+    color: white;
+}
+.footer-links a {
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+.paragraphs {
+    color: white;
+    padding: 10px;
+}
+.footer-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+}
+#pic2 {
+  width: 200px;
+  height: 200px; 
+  margin-left: 10px;
+}
+a {
+    display: inline-block
+}
+.longBox {
+    display: flex;
+    display:inline-block;
+    width: 1390px;
+    height: 250px;
+    background-color: black;
+    border: solid;
+    border-color: black;
+    margin: 0 20px;
+}
+.shortBox{
+    display: inline-flex;
+    background-color: black;
+    width: 670px;
+    height: 250px;
+    border: solid;
+    border-color: black;
+    margin: 20px 20px;
+} 
+    
+.a-tag-headers1 {
+font-size: 100px;
+text-align: center;
+color: white;
+}
+.a-tag-headers2 {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+    .shortBox {
+        flex-direction: column;
+    }
+}
